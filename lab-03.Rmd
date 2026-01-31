@@ -95,6 +95,7 @@ ggplot(data = nobel_living_science, aes(x = country_us, fill = born_country_us))
     title = "US-based Nobel laureates by award location and birth country"
   )
 ```
+
 The visualization supports BuzzFeed's claim. Although not the majority, a substantial number of Nobel laureates were based in the U.S. at the time of award, and are not bron in the U.S.
 
 ### Exercise 6
@@ -110,4 +111,4 @@ nobel_living_science %>%
 
 ```
 Germany and the UK is the most common.
-...
+
