@@ -88,7 +88,7 @@ sum(nobel_living_science$born_country_us == "USA")
 
     ## [1] 105
 
-105 winners are born in the US
+105 winners are born in the U.S.
 
 ### Exercise 5
 
@@ -107,10 +107,11 @@ ggplot(data = nobel_living_science, aes(x = country_us, fill = born_country_us))
   )
 ```
 
-![](lab-03_files/figure-gfm/unnamed-chunk-6-1.png)<!-- --> The
-visualization supports BuzzFeed’s claim. Although not the majority, a
-substantial number of Nobel laureates were based in the U.S. at the time
-of award, and are not bron in the U.S.
+![](lab-03_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+
+The visualization supports BuzzFeed’s claim. Although not the majority,
+a substantial number of Nobel laureates were based in the U.S. at the
+time of award, and are not bron in the U.S.
 
 ### Exercise 6
 
@@ -140,4 +141,4 @@ nobel_living_science %>%
     ## 10 Finland            1
     ## # ℹ 11 more rows
 
-Germany and the UK is the most common. …
+Germany and the UK is the most common.

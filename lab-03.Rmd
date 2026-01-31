@@ -78,7 +78,7 @@ nobel_living_science <- nobel_living_science %>%
 sum(nobel_living_science$born_country_us == "USA")
 
 ```
-105 winners are born in the US
+105 winners are born in the U.S.
 
 ### Exercise 5
 
