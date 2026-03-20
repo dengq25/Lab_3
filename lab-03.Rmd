@@ -1,7 +1,7 @@
 ---
 title: "Lab 03 - Nobel laureates"
-author: "Insert your name here"
-date: "Insert date here"
+author: "Cynthia Deng"
+date: "edited 3/20/2026"
 output: github_document
 ---
 
@@ -82,7 +82,6 @@ sum(nobel_living_science$born_country_us == "USA")
 
 ### Exercise 5
 
-...
 ```{r}
 ggplot(data = nobel_living_science, aes(x = country_us, fill = born_country_us)) +
   geom_bar() +

@@ -1,7 +1,7 @@
 Lab 03 - Nobel laureates
 ================
-Insert your name here
-Insert date here
+Cynthia Deng
+edited 3/20/2026
 
 ### Load packages and data
 
@@ -91,8 +91,6 @@ sum(nobel_living_science$born_country_us == "USA")
 105 winners are born in the U.S.
 
 ### Exercise 5
-
-…
 
 ``` r
 ggplot(data = nobel_living_science, aes(x = country_us, fill = born_country_us)) +
